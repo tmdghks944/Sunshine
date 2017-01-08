@@ -18,6 +18,13 @@ package com.example.android.sunshine;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
+import java.net.URL;
+import android.os.AsyncTask;
+
+import com.example.android.sunshine.data.SunshinePreferences;
+import com.example.android.sunshine.utilities.NetworkUtils;
+import com.example.android.sunshine.utilities.OpenWeatherJsonUtils;
+
 
 public class MainActivity extends AppCompatActivity {
 

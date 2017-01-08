@@ -18,9 +18,11 @@ package com.example.android.sunshine.utilities;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Scanner;
-
+import android.net.Uri;
+import android.util.Log;
 /**
  * These utilities will be used to communicate with the weather servers.
  */
